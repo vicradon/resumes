@@ -1,0 +1,197 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "work": "Work Experience",
+    "education": "Education",
+    "projects": "Projects and Writing",
+    "awards": "Certifications",
+    "skills": "Skills"
+  },
+  "basics": {
+    "name": "Osinachi Chukwujama",
+    "email": "osinachi.chukwujama@gmail.com",
+    "phone": "+2348105487627",
+    "location": {
+      "address": "Lagos, Nigeria"
+    },
+    "website": "https://www.osinachi.me/"
+  },
+  "education": [
+    {
+      "area": "Industrial and Production Engineering",
+      "studyType": "Mechanical Engineering",
+      "endDate": "August 2023",
+      "gpa": "4.52",
+      "institution": "Federal University of Technology, Owerri",
+      "location": "Owerri",
+      "startDate": "Nov 2017"
+    }
+  ],
+  "work": [
+    {
+      "location": "Lagos, Nigeria",
+      "position": "FRONTEND SOFTWARE ENGINEER",
+      "website": "",
+      "startDate": "July 2021",
+      "highlights": [
+        "Implemented and optimized the admin dashboard of the crypto payment management system for the Patricia applications using React.js, Next.js, and TailwindCSS, resulting in an 80% improvement in payment management.",
+        "Successfully enhanced the frontend resilience of the crypto payment management system by writing component and integration tests using Jest and Playwright, reducing app crashes in production by 90%.",
+        "Reduced runtime bugs in the production environment of the payment management system by porting the JavaScript-based React application to TypeScript, ensuring smoother performance, type-safety and efficient debugging.",
+        "Increased the security of the payment admin dashboard by 70% by implementing Two-Factor Authentication (Google Authenticator App), ensuring secure access to the payment system.",
+        "Refactored the data fetching layer of the application to use React Query, resulting in a reduction of duplicated code and improved performance."
+      ],
+      "company": "Patricia Technologies",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Improved developer success of software and data engineers by crafting how-to guides and tutorials on data engineering topics.",
+        "Built demos for technical articles using React.js, JavaScript, Docker, and Java.",
+        "Improved technical correctness of articles by suggesting edits to other technical writers.",
+        "Made research on similar technologies and perform benchmark tests to discover the technology best suited for several different applications."
+      ],
+      "company": "Draft.dev",
+      "position": "Technical Writer (Contract)",
+      "location": "Chicago, Illinois (Remote)",
+      "startDate": "May 2021",
+      "endDate": "Present"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "JavaScript",
+        "Typescript",
+        "Python",
+        "SQL",
+        "PHP",
+        "Go"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Git",
+        "AWS",
+        "Google Cloud Platform",
+        "Azure",
+        "Docker",
+        "Figma",
+        "ReactQuery",
+        "WebSockets",
+        "Cypress",
+        "Playwright",
+        "Jest"
+      ],
+      "name": "Technologies and Tools"
+    },
+    {
+      "keywords": [
+        "Next.js",
+        "Express.js",
+        "Nest.js",
+        "Laravel"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "Communication",
+        "Presentation",
+        "Critical Analysis",
+        "Technical Writing"
+      ],
+      "name": "Soft Skills"
+    }
+  ],
+  "projects": [
+    {
+      "name": "AnonMsg",
+      "description": "AN ANONYMOUS MESSAGING APPLICATION THAT PEOPLE CAN USE TO RECEIVE MESSAGES FROM FRIENDS",
+      "url": "https://tbh.ink",
+      "keywords": [
+        "Next.js",
+        "Firebase"
+      ]
+    },
+    {
+      "keywords": [
+        "Next.js",
+        "Adonis.js",
+        "Azure"
+      ],
+      "name": "Mire",
+      "description": "A FINTECH APP THAT ALLOWS PEOPLE IN THE DIASPORA TO SEND MONEY TO THEIR LOVED ONES IN NIGERIA",
+      "url": "https://mire-five.vercel.app"
+    },
+    {
+      "keywords": [
+        "Javascript",
+        "Typescript",
+        "Python",
+        "Tensorflowjs"
+      ],
+      "name": "Proctify",
+      "description": "AN AI REMOTE PROCTORING TOOL THAT USED FOR PROCTORING REMOTE ONLINE EXAMS. ",
+      "url": "http://proctify-frontend.vercel.app/"
+    },
+    {
+      "keywords": [
+        "Airbyte",
+        "Postgresql"
+      ],
+      "name": "Replicate Data from a PostgreSQL Database to Snowflake",
+      "description": "This technical article features a migration process where data is copied from a Postgresql database on a server to a Snowflake datalake. The tool used is Airbyte and the client is also Airbyte.",
+      "url": "https://airbyte.io/recipes/postgresql-database-to-snowflake"
+    },
+    {
+      "keywords": [
+        null
+      ],
+      "name": "Microservices Architecture | Ultimate Guide & Tutorial",
+      "description": "This is a technical overview of the Microservices architecture. It explains all the bits like why Microservices are used and the ways the architecture could be implemented. The client was Containeriq.",
+      "url": "https://www.containiq.com/post/microservices-architecture"
+    },
+    {
+      "keywords": [
+        "Java",
+        "Apache Kafka",
+        "Kafka Streams",
+        "Redpanda"
+      ],
+      "url": "https://redpanda.com/blog/kafka-streams-redpanda/",
+      "name": "How to integrate Kafka Streams with Redpanda",
+      "description": "This technical article features the use of a Kafka Streams application to perform data aggregation. The client was Redpanda."
+    }
+  ],
+  "awards": [
+    {
+      "date": "Sept 2020",
+      "awarder": "Microsoft",
+      "summary": "Demonstrated proficiency in cloud computing on Azure and solutions built on the cloud, resulting in achieving the Microsoft AZ-900 certification. ",
+      "title": "Azure Fundamentals (AZ-900)"
+    },
+    {
+      "title": "Azure Data Fundamentals (DP-900)",
+      "date": "March 2022",
+      "awarder": "Microsoft",
+      "summary": "Awarded the Microsoft DP-900 certification for demonstrating proficiency in data technologies and tools on Azure."
+    },
+    {
+      "title": "Azure AI Fundamentals (AI-900)",
+      "date": "March 2022",
+      "awarder": "Microsoft",
+      "summary": "Awarded the Microsoft Azure AI-900 certification for demonstrating proficiency in the use of AI services on Azure."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "projects",
+    "education",
+    "awards"
+  ]
+}
