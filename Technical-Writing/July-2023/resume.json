@@ -3,7 +3,7 @@
   "headings": {
     "work": "Work Experience",
     "education": "Education",
-    "projects": "Projects and Writing",
+    "projects": "Technical Articles and Developer Projects",
     "awards": "Certifications",
     "skills": "Skills"
   },
@@ -37,7 +37,7 @@
         "Implemented and optimized the admin dashboard of the crypto payment management system for the Patricia applications using React.js, Next.js, and TailwindCSS, resulting in an 80% improvement in payment management.",
         "Successfully enhanced the frontend resilience of the crypto payment management system by writing component and integration tests using Jest and Playwright, reducing app crashes in production by 90%.",
         "Reduced runtime bugs in the production environment of the payment management system by porting the JavaScript-based React application to TypeScript, ensuring smoother performance, type-safety and efficient debugging.",
-        "Increased the security of the payment admin dashboard by 70% by implementing Two-Factor Authentication (Google Authenticator App), ensuring secure access to the payment system.",
+        "Increased the security of the payment admin dashboard by 70% by implementing token-based Two-Factor Authentication, ensuring secure access to the payment system.",
         "Refactored the data fetching layer of the application to use React Query, resulting in a reduction of duplicated code and improved performance."
       ],
       "company": "Patricia Technologies",
@@ -45,15 +45,25 @@
     },
     {
       "highlights": [
-        "Improved developer success of software and data engineers by crafting how-to guides and tutorials on data engineering topics.",
-        "Built demos for technical articles using React.js, JavaScript, Docker, and Java.",
-        "Improved technical correctness of articles by suggesting edits to other technical writers.",
-        "Made research on similar technologies and perform benchmark tests to discover the technology best suited for several different applications."
+        "Produce high-quality, developer-focused blog posts for clients like Jetbrains, Synk, Redpanda, and Containeriq, covering diverse technical topics, programming languages, frameworks, and best practices, thereby increasing developer success.",
+        "Create detailed API documentation and integration guides for various clients when working on project-based technical articles to ensure that readers are able to flow seamlessly with the projects on Github.",
+        "Develop expertise in specific technologies and platforms such as Azure AD, Hygraph, and Redpanda on behalf of clients, becoming a go-to writer for certain technical subjects within the clients' content offerings, researching and immersing in specific technical domains to provide authoritative content that showcases clients' expertise.",
+        "Stay current with industry trends, emerging technologies, and developer communities to ensure the relevance of clients' content, continuously monitoring the ever-evolving technical landscape for relevant topics, and maintaining clients' status as cutting-edge resources for up-to-date technical information."
       ],
       "company": "Draft.dev",
       "position": "Technical Writer (Contract)",
       "location": "Chicago, Illinois (Remote)",
       "startDate": "May 2021",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Worked on making projects usable and understandable by writing technical documentation on how to use them",
+        "Revamped the documentation on an AI-Search tool: WikiEducation. Link: https://github.com/sammychinedu2ky/Wiki-Education"
+      ],
+      "company": "Various Projects",
+      "position": "Open-source technical writer",
+      "startDate": "July 2019",
       "endDate": "Present"
     }
   ],
@@ -78,11 +88,9 @@
         "Azure",
         "Docker",
         "Figma",
-        "ReactQuery",
-        "WebSockets",
         "Cypress",
         "Playwright",
-        "Jest"
+        "Postgresql"
       ],
       "name": "Technologies and Tools"
     },
@@ -100,12 +108,49 @@
         "Communication",
         "Presentation",
         "Critical Analysis",
-        "Technical Writing"
+        "Technical Writing",
+        "Attention to detail"
       ],
       "name": "Soft Skills"
+    },
+    {
+      "keywords": [
+        "Ahrefs Webmaster Tools",
+        "Google Search Console",
+        "Google Trends"
+      ],
+      "name": "Technical Writing Tools:"
     }
   ],
   "projects": [
+    {
+      "keywords": [
+        "Airbyte",
+        "Postgresql"
+      ],
+      "name": "Replicate Data from a PostgreSQL Database to Snowflake",
+      "description": "This technical article features a migration process where data is copied from a Postgresql database on a server to a Snowflake datalake. The tool used is Airbyte and the client is also Airbyte.",
+      "url": "https://airbyte.io/recipes/postgresql-database-to-snowflake"
+    },
+    {
+      "keywords": [
+        null
+      ],
+      "name": "Microservices Architecture | Ultimate Guide & Tutorial",
+      "description": "This is a technical overview of the Microservices architecture. It explains all the bits like why Microservices are used and the ways the architecture could be implemented. The client was Containeriq.",
+      "url": "https://www.containiq.com/post/microservices-architecture"
+    },
+    {
+      "keywords": [
+        "Java",
+        "Apache Kafka",
+        "Kafka Streams",
+        "Redpanda"
+      ],
+      "url": "https://redpanda.com/blog/kafka-streams-redpanda/",
+      "name": "How to integrate Kafka Streams with Redpanda",
+      "description": "This technical article features the use of a Kafka Streams application to perform data aggregation. The client was Redpanda."
+    },
     {
       "name": "AnonMsg",
       "description": "AN ANONYMOUS MESSAGING APPLICATION THAT PEOPLE CAN USE TO RECEIVE MESSAGES FROM FRIENDS",
@@ -135,34 +180,6 @@
       "name": "Proctify",
       "description": "AN AI REMOTE PROCTORING TOOL THAT USED FOR PROCTORING REMOTE ONLINE EXAMS. ",
       "url": "http://proctify-frontend.vercel.app/"
-    },
-    {
-      "keywords": [
-        "Airbyte",
-        "Postgresql"
-      ],
-      "name": "Replicate Data from a PostgreSQL Database to Snowflake",
-      "description": "This technical article features a migration process where data is copied from a Postgresql database on a server to a Snowflake datalake. The tool used is Airbyte and the client is also Airbyte.",
-      "url": "https://airbyte.io/recipes/postgresql-database-to-snowflake"
-    },
-    {
-      "keywords": [
-        null
-      ],
-      "name": "Microservices Architecture | Ultimate Guide & Tutorial",
-      "description": "This is a technical overview of the Microservices architecture. It explains all the bits like why Microservices are used and the ways the architecture could be implemented. The client was Containeriq.",
-      "url": "https://www.containiq.com/post/microservices-architecture"
-    },
-    {
-      "keywords": [
-        "Java",
-        "Apache Kafka",
-        "Kafka Streams",
-        "Redpanda"
-      ],
-      "url": "https://redpanda.com/blog/kafka-streams-redpanda/",
-      "name": "How to integrate Kafka Streams with Redpanda",
-      "description": "This technical article features the use of a Kafka Streams application to perform data aggregation. The client was Redpanda."
     }
   ],
   "awards": [
