@@ -1,0 +1,168 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "work": "Work Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "awards": "Certifications",
+    "skills": "Skills"
+  },
+  "basics": {
+    "name": "Osinachi Chukwujama",
+    "email": "osinachi.chukwujama@gmail.com",
+    "phone": "+2348105487627",
+    "location": {
+      "address": "Lagos, Nigeria"
+    },
+    "website": "https://www.linkedin.com/in/chukwujama-osinachi"
+  },
+  "education": [
+    {
+      "area": "Industrial and Production Engineering",
+      "studyType": "Mechanical Engineering",
+      "endDate": "August 2023",
+      "gpa": "4.52",
+      "institution": "Federal University of Technology, Owerri",
+      "location": "Owerri",
+      "startDate": "Nov 2017"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Built CI/CD pipelines using GitHub Actions for automated Build, Test and Deployment processes ensuring smooth updates for the Telex app.",
+        "Implemented Monitoring and Observability solutions using Grafana, Loki, Promtail and Prometheus, enabling real-time tracking of the Telex's server and application metrics.",
+        "Configured a Kubernetes Cluster to serve as a Self-Hosted GitHub Actions Runner improving CI/CD efficiency for Telex's cross-platform development.",
+        "Containerized and Deployed a full-stack web application using Docker and configured proxy manager for efficient routing."
+      ],
+      "company": "Hotels.ng",
+      "position": "DevOps Engineer",
+      "location": "Nigeria",
+      "startDate": "June 2024",
+      "endDate": "August 2024"
+    },
+    {
+      "highlights": [
+        "Trained entry level staff of banks (FirstBank, Stanbic IBTC Bank) on the use of cloud services on Azure",
+        "Prepared demos and learning materials on Azure Administration, Azure AI, and Azure Data Services.",
+        "Created hands-on labs and practical exercises to reinforce learning and ensure participants gained real-world experience with Azure tools and services.",
+        "Collaborated with bank IT departments to customize training content, ensuring alignment with organizational goals and compliance with industry standards"
+      ],
+      "company": "Elev8",
+      "position": "Azure Cloud Trainer (Contract)",
+      "location": "Lagos, Nigeria",
+      "endDate": "Present",
+      "startDate": "January 2024"
+    },
+    {
+      "highlights": [
+        "Implemented and optimized the admin dashboard of the crypto payment management system for the Patricia applications using React.js, Next.js, and TailwindCSS, resulting in an 80% improvement in payment management.",
+        "Wrote and documented CRUD APIs related to customer payments on the Vaunt Laravel application.",
+        "Implemented logging and monitoring using Sentry which helped identify bugs in the application, improving uptime by over 25%.",
+        "Increased the security of the payment admin dashboard by 70% by implementing token-based Two-Factor Authentication, ensuring secure access to the payment system.",
+        "Refactored the data fetching layer of the application to use React Query, reducing duplicated code and improving performance.",
+        "Successfully enhanced the frontend resilience of the crypto payment management system by writing component and integration tests using Jest and Playwright, reducing app crashes in production by 90%.",
+        "Reduced runtime bugs in the production environment of the payment management system by porting the JavaScript-based React application to TypeScript, ensuring smoother performance, type-safety, and efficient debugging."
+      ],
+      "company": "Patricia Technologies",
+      "location": "Lagos, Nigeria",
+      "position": "FULL-STACK SOFTWARE ENGINEER",
+      "startDate": "July 2021",
+      "endDate": "June 2023"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Go",
+        "Python",
+        "Javascript",
+        "Typescript",
+        "PHP"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Azure",
+        "AWS",
+        "Docker",
+        "Prometheus",
+        "Grafana"
+      ],
+      "name": "Technologies and Tools"
+    },
+    {
+      "keywords": [
+        "Communication",
+        "Presentation",
+        "Critical Analysis",
+        "Technical Writing",
+        "Attention to detail"
+      ],
+      "name": "Soft Skills"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Python",
+        "FFmpeg"
+      ],
+      "name": "YouTube Splitter App",
+      "description": "A YouTube splitter app that splits a YouTube video into a specified number of parts.",
+      "url": "https://github.com/vicradon/youtubesplitterapp"
+    },
+    {
+      "keywords": [
+        "GitHub Actions",
+        ".env",
+        "CI/CD"
+      ],
+      "name": "Create Env Action",
+      "description": "A GitHub Action that creates .env files in GitHub Actions workflow, streamlining environment configuration.",
+      "url": "https://github.com/vicradon/create-env-action"
+    },
+    {
+      "keywords": [
+        "Logging",
+        "Webhook",
+        "Go"
+      ],
+      "name": "Telex Aggregator",
+      "description": "A logger app that monitors log files and sends new entries to an ingestor via webhook.",
+      "url": "https://github.com/vicradon/telex_aggregator"
+    }
+  ],
+  "awards": [
+    {
+      "date": "Sept 2020",
+      "awarder": "Microsoft",
+      "summary": "Demonstrated proficiency in cloud computing on Azure and solutions built on the cloud, resulting in achieving the Microsoft AZ-900 certification.",
+      "title": "Azure Fundamentals (AZ-900)"
+    },
+    {
+      "title": "Azure Data Scientist Associate (DP-100)",
+      "date": "May 2024",
+      "awarder": "Microsoft",
+      "summary": "Awarded the Microsoft DP-100 certification for demonstrating proficiency in running machine learning workloads on Azure."
+    },
+    {
+      "title": "Github Actions Certification",
+      "date": "March 2022",
+      "awarder": "GitHub",
+      "summary": "Awarded the Github Actions certification for demonstrating proficiency in authoring workflows using GitHub Actions."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "education",
+    "projects",
+    "awards"
+  ]
+}
