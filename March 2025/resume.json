@@ -1,0 +1,184 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "work": "Work Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "awards": "Certifications",
+    "skills": "Skills"
+  },
+  "basics": {
+    "name": "Osinachi Chukwujama",
+    "email": "osinachi.chukwujama@gmail.com",
+    "phone": "+2348105487627",
+    "location": {
+      "address": "Lagos, Nigeria"
+    },
+    "website": "https://www.linkedin.com/in/chukwujama-osinachi"
+  },
+  "education": [
+    {
+      "area": "Mechanical Engineering in Industrial and Production Engineering",
+      "studyType": "Mechanical Engineering",
+      "endDate": "August 2023",
+      "gpa": "4.52",
+      "institution": "Federal University of Technology, Owerri",
+      "location": "Owerri",
+      "startDate": "November 2017"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Authored CI/CD pipelines that run on GitHub Actions for automated Build, Test and Deployment processes ensuring zero downtimes for all supporting applications.",
+        "Implemented Monitoring and Observability solutions using Grafana, Loki, Promtail, and Prometheus, enabling real-time tracking of the Telex's server and application metrics.",
+        "Deployed a real-time communication stack using Centrifugo (Socket.io alternative) and connected it to both the frontend and backend application",
+        "Developed a scheduler system using Celery (Python) and RabbitMQ for cron-based and pull-based workloads on the Telex platform.",
+        "Optimized PostgreSQL database queries and implemented event sourcing using the write-log to reduce database polling"
+      ],
+      "company": "Hotels.ng",
+      "position": "Backend/DevOps Engineer",
+      "location": "Nigeria",
+      "startDate": "June 2024",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Optimized Next.js SSR and lazy loading to fix memory bloat, improving performance and reducing page load times.",
+        " Implemented pixel-perfect UI based on Figma designs, ensuring a seamless and responsive user experience.",
+        "Refactored data fetching with React Query, eliminating redundant API calls and enhancing client-side caching.",
+        "Enhanced code splitting with dynamic imports, reducing the initial bundle size and improving site speed."
+      ],
+      "company": "Thrillers Travels",
+      "position": "Frontend Software Engineer",
+      "location": "Lagos/Nigeria",
+      "startDate": "June 2023",
+      "endDate": "December 2023"
+    },
+    {
+      "highlights": [
+        "Implemented and optimized the admin dashboard of the crypto payment management system for the Patricia applications using React.js, Next.js, and TailwindCSS, resulting in an 80% improvement in payment management.",
+        "Wrote and documented CRUD APIs related to customer payments on the Vaunt Laravel application.",
+        "Implemented logging and monitoring using Sentry which helped identify bugs in the application, improving uptime by over 25%.",
+        "Increased the security of the payment admin dashboard by 70% by implementing token-based Two-Factor Authentication, ensuring secure access to the payment system.",
+        "Refactored the data fetching layer of the application to use React Query, reducing duplicated code and improving performance.",
+        "Successfully enhanced the frontend resilience of the crypto payment management system by writing component and integration tests using Jest and Playwright, reducing app crashes in production by 90%.",
+        "Reduced runtime bugs in the production environment of the payment management system by porting the JavaScript-based React application to TypeScript, ensuring smoother performance, type-safety, and efficient debugging."
+      ],
+      "company": "Patricia Technologies",
+      "location": "Lagos, Nigeria",
+      "position": "Full-Stack Software Engineer",
+      "startDate": "July 2021",
+      "endDate": "June 2023"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Javascript",
+        "Typescript",
+        "Python",
+        "Go",
+        "SQL"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Nest.js",
+        "Next.js",
+        "React.js"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Docker",
+        "GraphQL",
+        "Bash",
+        "Prometheus",
+        "Grafana"
+      ],
+      "name": "Technologies and Tools"
+    },
+    {
+      "keywords": [
+        "Communication",
+        "Presentation",
+        "Critical Analysis",
+        "Technical Writing",
+        "Attention to detail"
+      ],
+      "name": "Soft Skills"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "NestJS",
+        "NextJS",
+        "GraphQL",
+        "Socket.io"
+      ],
+      "name": "Da Chat App",
+      "description": "A realtime chat application built using WebSockets, Signed Cookies, and GraphQL, Supporting Chats in Rooms",
+      "url": "https://github.com/vicradon/tactology-global-chatapp"
+    },
+    {
+      "keywords": [
+        "GitHub Actions",
+        ".env",
+        "CI/CD"
+      ],
+      "name": "Create Env Action",
+      "description": "A GitHub Action that creates .env files in GitHub Actions workflow, streamlining environment configuration.",
+      "url": "https://github.com/vicradon/create-env-action"
+    },
+    {
+      "keywords": [
+        "Logging",
+        "Webhook",
+        "Go"
+      ],
+      "name": "Telex",
+      "description": "An ongoing project in which I handled the queue processing and CI/CD pipeline maintenance",
+      "url": "https://telex.im"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Azure Administrator (AZ-104)",
+      "date": "September 2024",
+      "awarder": "Microsoft",
+      "summary": "Awarded the Microsoft AZ-104 certification for demonstrating proficiency in deploying and managing Azure services."
+    },
+    {
+      "title": "Azure Data Scientist Associate (DP-100)",
+      "date": "June 2024",
+      "awarder": "Microsoft",
+      "summary": "Awarded the Microsoft DP-100 certification for demonstrating proficiency in running machine learning workloads on Azure."
+    },
+    {
+      "title": "Github Actions Certification",
+      "date": "May 2024",
+      "awarder": "GitHub",
+      "summary": "Awarded the Github Actions certification for demonstrating proficiency in authoring workflows using GitHub Actions."
+    },
+    {
+      "title": "Azure Fundamentals (AZ-900)",
+      "date": "September 2020",
+      "awarder": "Microsoft",
+      "summary": "Demonstrated proficiency in cloud computing on Azure and solutions built on the cloud, resulting in achieving the Microsoft AZ-900 certification."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "education",
+    "projects",
+    "awards"
+  ]
+}
