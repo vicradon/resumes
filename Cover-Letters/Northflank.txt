@@ -8,5 +8,7 @@ While problem solving is a major part of the job, I understand that a team shoul
 
 Wrapping it up, I must say that I am inspired to join Northflank as a backend software engineer, and I trust that I will get to apply all the skills I have acquired over the years and learn new things along the way. I look forward to your interview process.
 
+PS: I deployed my frontend here: https://frontend--dachatapp--cclzb2nxnfwr.code.run/ and the backend here: https://p01--dachatapp2--cclzb2nxnfwr.code.run/
+
 Best,
 Osinachi Chukwujama
