@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV (Trey Hunner, LaTeXTemplates.com)
+% Requires resume.cls in the same directory.
+% Tailored for: Applied Scientist / Research Engineer Intern, Mistral AI
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{resume}
+
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}
+\usepackage[hidelinks]{hyperref}
+
+\name{Osinachi Chukwujama}
+\address{Saint-Étienne, France}
+\address{\href{mailto:osinachi.chukwujama@gmail.com}{osinachi.chukwujama@gmail.com} \\ +33 6 51 41 94 14}
+\address{\href{https://github.com/vicradon}{github.com/vicradon} \\ \href{https://www.linkedin.com/in/chukwujama-osinachi/}{linkedin.com/in/chukwujama-osinachi}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Profile}
+Photonics master's student and software engineer with a First Class engineering degree and several
+years of production experience on large codebases. I implement generative models from first
+principles in PyTorch, from the mathematical derivation through training and sampling, and I have
+shipped models to edge GPUs and multimodal LLM features to production. Comfortable working
+independently, writing fault-tolerant Python, and explaining technical work to any audience.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research Interests}
+Diffusion models, flow matching, score-based models, world models, optimisation.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+
+{\bf Erasmus Mundus Joint Master, Intelligent Photonics (IPSRS)} \hfill {September 2026 -- 2028}\\
+M1, Optics, Image, Vision and Multimedia, Université Jean Monnet, Saint-Étienne, France\\
+\textit{Relevant coursework:} Fourier optics, digital image processing, probability and signal analysis.
+
+{\bf Bachelor of Engineering, Mechanical Engineering} \hfill {November 2017 -- August 2023}\\
+Federal University of Technology, Owerri (FUTO), Nigeria. CGPA: 4.56/5.00 (First Class),\\
+96th percentile in the department; best graduating student in Industrial and Production Engineering.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} l @{\hspace{4ex}} p{0.72\textwidth} }
+\textbf{Machine learning} & PyTorch: DDPM, OT-conditional flow matching, score matching, CNN/ResNet training, transfer learning (YOLOv5, ResNet18); ONNX export, TensorRT optimisation \\
+\textbf{Mathematics} & Probability, variational inference (ELBO), continuity equation and optimal transport for flow matching, Fourier analysis \\
+\textbf{Software} & Python (proficient), Go, TypeScript/JavaScript, PHP; Celery, RabbitMQ, PostgreSQL, GraphQL, Linux \\
+\textbf{Engineering practice} & CI/CD pipelines, automated testing, typed codebases, logging and monitoring, backups and incident response \\
+\textbf{Languages} & English: C1 (IELTS 8.0) \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research and ML Projects}
+
+\begin{rSubsection}{Generative Modelling from First Principles}{2026}{Self-directed research}{}
+\item Derived and implemented DDPM (forward/reverse process, ELBO, reparameterisation) and OT-conditional flow matching in PyTorch, covering training and sampling end to end.
+\item Studied the links between score matching (denoising and implicit variants, NCSN), flow matching and normalising flows; wrote a forward-diffusion noising tool in Go for synthetic data generation.
+\item Proposed a comparison of OT-CFM and DDPM on photonics/laser data (TPU Research Cloud application).
+\end{rSubsection}
+
+\begin{rSubsection}{Margin: Handwritten Notes with Multimodal AI Feedback}{2026}{Personal project, \href{https://margin.osinachi.me}{margin.osinachi.me}}{}
+\item Built and deployed a pen-based note-taking app in which a multimodal LLM checks handwritten reasoning from images and returns immediate correctness feedback.
+\item Switched LLM providers to cut feedback latency; notes sync to a Git repository through a pull-then-push workflow.
+\end{rSubsection}
+
+\begin{rSubsection}{Surveillance Drone with Real-Time Object Detection}{August 2023 -- March 2024}{Undergraduate final project and follow-up, supervised by Prof.\ O.O.\ Obiukwu}{MEE, FUTO}
+\item Collected and annotated a three-class dataset, fine-tuned YOLOv5 (70\% mAP) and ran live inference on a drone's camera stream via ONNX.
+\item Deployed the model on an NVIDIA Jetson Nano with TensorRT, cutting processing time by 44\%.
+\end{rSubsection}
+
+\begin{rSubsection}{Optics Simulation Playground}{In progress}{Personal project, \href{https://pre-zeemax.vercel.app/}{pre-zeemax.vercel.app}}{}
+\item 2D ray-tracing tool with finite-size lenses, being extended into a Fourier optics simulator.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{Dstrct Group}{March 2025 -- May 2026}{Backend Engineer / Technical Lead}{Lagos, Nigeria}
+\item Core engineer and technical lead on an enterprise intranet: a typed GraphQL backend (NestJS, TypeORM, PostgreSQL) of nearly 1,000 files spanning auth, documents, ticketing, chat, tasks, scheduling and WebSocket real-time features.
+\item Worked directly with clients and stakeholders to set priorities and turn business requirements into engineering tasks.
+\item Built an automated DOCX templating and PDF conversion pipeline generating formal documents from database records.
+\end{rSubsection}
+
+\begin{rSubsection}{Hotels.ng}{June 2024 -- January 2026}{Software/DevOps Engineer (part-time)}{Lagos, Nigeria}
+\item Developed a highly concurrent Python/Celery application distributing AI workloads across workers over RabbitMQ.
+\item Wrote CI/CD workflows for deployment, database migrations and automated testing.
+\item Wrote logging and log-processing tooling that improved monitoring coverage by over 70\% versus manual checks.
+\end{rSubsection}
+
+\begin{rSubsection}{Generative CAD}{December 2021 -- June 2022}{Robotics \& 3D Printing Industrial Trainee}{Lagos, Nigeria}
+\item Developed ROS path planning for robots, simulated in Gazebo and RViz; designed and 3D printed prototypes from customer requirements.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publications}
+\item \textit{Quantum Computing in Artificial Intelligence: A Review of Quantum Machine Learning Algorithms}, Path of Science.\\ \href{http://dx.doi.org/10.22178/pos.117-25}{doi:10.22178/pos.117-25}
+\item \textit{Secure and Resilient Industrial IoT Architectures for Smart Manufacturing: A Comprehensive Review}, JERR (2025).\\ \href{https://doi.org/10.9734/jerr/2025/v27i61548}{doi:10.9734/jerr/2025/v27i61548}
+\item \textit{Clinical Applications of 3D-Printed Medical Implants}, JOPIR.\\ \href{https://doi.org/10.69613/22dn3m33}{doi:10.69613/22dn3m33}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Teaching and Communication}
+\item \textbf{Microsoft Certified Trainer} (Azure and AI): delivered enterprise workshops, including for MTN Nigeria, and prepared AI course materials.
+\item \textbf{Former Microsoft Learn Student Ambassador}: trained over 300 students in software engineering and cloud technologies.
+\item \textbf{Director of Research, Mechanical Engineering, FUTO}: ran hands-on training in machine learning, microcontrollers and 3D printing for 50+ students and staff. Co-founder of Hack4FUTO.
+\item Technical writer at \href{https://blog.osinachi.me}{blog.osinachi.me}.
+\end{rSection}
+
+\end{document}
