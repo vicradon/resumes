@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Motivation letter, Summer@EPFL 2027
+% Deadline: Sunday 29 November 2026, 23:59 AoE. One page ideally, max two.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+\usepackage[a4paper,left=0.9in,right=0.9in,top=0.8in,bottom=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.75em}
+\pagestyle{empty}
+
+\begin{document}
+
+{\large\bfseries Osinachi Chukwujama}\\
+Saint-Étienne, France \quad·\quad \href{mailto:osinachi.chukwujama@gmail.com}{osinachi.chukwujama@gmail.com} \quad·\quad \href{https://github.com/vicradon}{github.com/vicradon}
+
+\vspace{0.5em}
+Summer@EPFL Selection Committee\\
+School of Computer and Communication Sciences, EPFL
+\hfill \today
+
+\vspace{0.3em}
+\textbf{Application for a Summer@EPFL 2027 research internship: inverse problems in imaging}
+
+Dear Members of the Committee,
+
+I am applying to Summer@EPFL because I want to spend summer 2027 working on a question that has
+come to organise my studies: how to recover an image from indirect, noisy measurements by combining
+a physical model of how the data was formed with a learned model of what images look like. I am a
+first-year student in the Erasmus Mundus Joint Master in Intelligent Photonics (iPSRS), and the
+groups of Prof.\ Volkan Cevher, Prof.\ Wenzel Jakob and Prof.\ Sabine Süsstrunk sit exactly where
+that question lives: optimisation for learning, differentiable physical models of light, and
+computational imaging.
+
+My path here runs through both physics and software. I graduated with First Class honours in
+Mechanical Engineering from FUTO, Nigeria, then worked for several years as a software engineer and
+technical lead, most recently leading the backend of an enterprise platform of nearly 1,000 files.
+That work taught me to write code other people depend on: tested, reviewed and maintainable. I
+returned to study because I wanted to apply that discipline to research rather than products.
+
+On the modelling side, I have derived and implemented denoising diffusion (DDPM) and
+optimal-transport conditional flow matching in PyTorch from first principles, from the ELBO and
+reparameterisation through to training and sampling, and studied how they relate to score matching
+and normalising flows. On the physical side, my iPSRS coursework puts me in the lab with Fourier
+optics and spatial light modulators: I generated grating and Fresnel-lens phase patterns in MATLAB,
+displayed them on an SLM, and recovered the gratings' spatial frequencies from the observed
+diffraction. Seeing a forward model hold up on an optical bench is what made me want to invert one.
+I have also taken vision models to hardware: in my final-year project I trained YOLOv5 on a dataset I
+collected, exported it through ONNX and deployed it with TensorRT on a Jetson Nano, cutting
+processing time by 44\%.
+
+I would be glad to contribute to any project that brings these together, for example using
+diffusion or flow-based priors for reconstruction, differentiable forward models for imaging
+problems, or the optimisation methods that make such reconstructions reliable. I learn quickly in
+unfamiliar codebases, and I would aim to leave the lab with a documented, reusable result rather than
+a one-off experiment.
+
+The timing also suits my programme: I study at Université Jean Monnet until January and at the
+University of Eastern Finland until May 2027, and I am free for two to three months between June and
+early September before my second year at Université Paris-Est Créteil, where I will specialise in
+biometrics and intelligent vision. A summer at EPFL would be the bridge between the photonics I am
+learning now and the computational imaging research I want to pursue.
+
+Thank you for considering my application.
+
+Sincerely,\\[0.4em]
+Osinachi Chukwujama
+
+\end{document}
